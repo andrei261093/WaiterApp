@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:text="Andrei"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:id="@+id/waiter_name"
+        />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/swipe_to_refresh_layout"
+        >
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="?attr/actionBarSize"
+            android:id="@+id/tasks_list_view"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/empty_list"
+            android:visibility="gone"
+            android:id="@+id/empty_list_image_view"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

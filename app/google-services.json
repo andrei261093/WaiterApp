@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "267234873605",
+    "firebase_url": "https://waiterapp-5f540.firebaseio.com",
+    "project_id": "waiterapp-5f540",
+    "storage_bucket": "waiterapp-5f540.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267234873605:android:80c6f7a1a4cf0a79",
+        "android_client_info": {
+          "package_name": "com.example.andreiiorga.waiterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267234873605-p5kr1k1lndu95l220susepptrb9lqmsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvQ3zbLwfkruCkhSIm-TluhRLn35fvdfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
